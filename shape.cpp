@@ -4,16 +4,16 @@ int CShape::mNumShapes = 0;
 
 void CShape::Init()
 {
-	mArea = GetArea();
-	PrintErea();
+    mArea = GetArea();
+    PrintErea();
 }
 
 double CSquare::GetArea()
 {
-	return mEdge * mEdge;
+    return mEdge * mEdge;
 }
 
 double CCircle::GetArea()
 {
-	return 3.1415926 * mR * mR;
+    return 3.1415926 * mR * mR;
 }
